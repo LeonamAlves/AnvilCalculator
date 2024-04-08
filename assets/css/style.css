@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pixelify+Sans:wght@400..700&family=Teko:wght@300..700&display=swap');
+:root {
+    --primary-color: rgb(43, 40, 40);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    display: flex;
+       
+}
+
+.container {
+    max-width: 740px;
+    margin: 100px auto;
+    background: rgb(196, 196, 196);
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    /* text-shadow: 0.1em 0.1em 25px rgb(139, 139, 139); */
+    color: rgb(68, 68, 68);
+    
+}
+
+h2{
+    color: rgb(68, 68, 68);
+}
+
+button {
+    height: 40px;
+    background-color: #fff;
+    /* border-radius: 6px; */
+    width: 250px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 27px;
+    margin-top: 2%;
+    color: rgb(68, 68, 68);
+}
+
+button:hover {
+    background-color:whitesmoke ;
+}
+
+select {
+    background-color: #fff;
+    height: 60px;
+    width: 100px;
+    /* border-radius: 6px; */
+    margin-left: 5px ;
+    margin-right: 5px ;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    }
+
+option {
+    font-family: "Pixelify Sans"; 
+ } 
+
+div{
+    color: white;
+    position: absolute;
+    bottom:0%;
+    left: 86%;
+    margin-bottom: 1%;
+}
+.resultado-numero {
+    margin: 5px 0;
+}
+
+.resultado-numero.positivo {
+    color: green;
+}
+
+.resultado-numero.negativo {
+    color: red;
+}
